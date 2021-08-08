@@ -34,7 +34,7 @@ response = requests.post(url , json = {"image":imgdata})
 
 print(response.text.strip())
 
-```python
+```
 
 ## Built With ❤️ and
 
