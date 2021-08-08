@@ -35,9 +35,7 @@ function App() {
     const file = e.target.files[0];
     const base64 = await convertBase64(file);
     setBaseImage(base64);
-    console.log(baseImage);
     setImgData(getBase64(baseImage));
-    console.log(imgData);
   };
 
   const identify = async (e) => {
@@ -80,7 +78,9 @@ function App() {
         height="200px"
         alt="uploaded"
       />
-      <h2 className={result ? "d-block" : "d-none"}> It's a {result}</h2>
+      <h2 id="result-heading" className={result ? "d-block" : "d-none"}>
+        It's a <span>{result.toUpperCase()}</span>
+      </h2>
       <Button
         variant="primary"
         id="button-upload"
@@ -89,7 +89,7 @@ function App() {
           identify();
         }}
       >
-        Identify
+        <span className="button-text">Identify</span>
       </Button>
     </div>
   );
