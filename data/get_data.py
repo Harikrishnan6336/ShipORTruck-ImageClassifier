@@ -1,4 +1,6 @@
 """
+Used to obtain the ship and truck images from the CIFAR-10 dataset.
+
 The `labels.csv` and the contents of `cifar-10-dataset` directory can be obtained by downloading the CIFAR-10
 dataset from here - https://www.kaggle.com/c/cifar-10/data?select=test.7z
 """

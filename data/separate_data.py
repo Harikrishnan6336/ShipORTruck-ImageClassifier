@@ -1,3 +1,4 @@
+# Python script to separate training and validation data
 import os
 from skimage.io import imread
 from skimage.io import imsave
