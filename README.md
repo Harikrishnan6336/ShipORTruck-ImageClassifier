@@ -1,4 +1,4 @@
-# ShipORTruck-ImageClassifier
+# 🚢Ship⚓ OR 🚚Truck🚒 -ImageClassifier
 
 This project was built as part of my submittion to [TinkerHub Foundation](https://tinkerhub.org/) Practical AI Bootcamp Selection Task
 
