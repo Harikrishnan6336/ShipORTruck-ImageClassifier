@@ -38,7 +38,7 @@ print(response.text.strip())
 
 ## Built With ❤️ and
 
-* [Python3.6](https://docs.python.org/3.6/) 
+* [Python3.6](https://docs.python.org/3.6/) - The programming langauge used preprocess data, train the model and build the API.
 * [PyTorch](https://pytorch.org/) - The deep learning library used to train the ML model
 * [Flask](https://flask.palletsprojects.com/en/2.0.x/) - The micro-web framework used to build API
 * [ReactJS](https://reactjs.org/) - The User Interface library used to build the website
