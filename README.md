@@ -11,7 +11,7 @@ This project was built as part of my submittion to [TinkerHub Foundation](https:
 Create a binary classifier to classify images of ships and trucks. Deploy the model and share links to code in GitHub and the API. 
 
 
-### Machine Learning
+### Brief Project Info
 
 The dataset required for training the ML model was obtained from [CIFAR-10](https://www.cs.toronto.edu/~kriz/cifar.html) dataset. Several python programs where used to automate the process of procuring the required images of ships and trucks from the CIFAR-10 dataset and the same can be found in [data](https://github.com/Harikrishnan6336/ShipORTruck-ImageClassifier/tree/main/data) directory. 4000 images where used for training and 1000 images where used for validation in each category. Some images where also procured for testing the trained model and they can be found [here](https://github.com/Harikrishnan6336/ShipORTruck-ImageClassifier/tree/main/data/test).
 
