@@ -35,7 +35,6 @@ function App() {
   };
 
   const identify = async (e) => {
-    console.log("Sending DATA ==  " + imgData);
     await axios
       .post(api_link, {
         image: imgData,
