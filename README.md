@@ -34,7 +34,7 @@ imgdata = imgdata.decode("utf-8")
 
 response = requests.post(url , json = {"image":imgdata})
 
-print(response.text.strip())
+print(response.text)
 ```
 
 A minimal website is made with ReactJS where the user can input an image and then let the model predict whether it is SHIP or TRUCK. It is hosted in netlify and can be found [here](https://shiportruck.netlify.app/).
