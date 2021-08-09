@@ -4,7 +4,7 @@ import { Form, Button } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import axios from "axios";
 
-const api_link = "https://truckorship.herokuapp.com/";
+const api_link = "https://shiportruck.herokuapp.com/";
 
 function App() {
   const [baseImage, setBaseImage] = useState("");
