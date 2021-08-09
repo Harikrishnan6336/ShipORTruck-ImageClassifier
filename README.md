@@ -37,7 +37,7 @@ response = requests.post(url , json = {"image":imgdata})
 print(response.text.strip())
 ```
 
-A minimal website is made with ReactJS where the user can input an image and then let the model predict whether it is SHIP or TRUCK. It can be found [here]().
+A minimal website is made with ReactJS where the user can input an image and then let the model predict whether it is SHIP or TRUCK. It is hosted in netlify and can be found [here](https://shiportruck.netlify.app/).
 
 ## Built With ❤️ and
 
