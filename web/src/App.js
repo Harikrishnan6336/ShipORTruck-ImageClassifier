@@ -34,7 +34,7 @@ function App() {
     setImgData(baseString);
   };
 
-  const identify = async (e) => {
+  const identify = async () => {
     await axios
       .post(api_link, {
         image: imgData,
@@ -61,7 +61,11 @@ function App() {
           <Form.Control
             type="file"
             onChange={(e) => {
-              uploadImage(e);
+              setBaseImage("");
+              if (e.target.value !== "") {
+                uploadImage(e);
+              }
+
               setResult("");
             }}
           />
