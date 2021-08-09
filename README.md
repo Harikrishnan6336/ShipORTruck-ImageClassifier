@@ -25,7 +25,7 @@ The following script can be used to test the API and the same script can be foun
 import base64
 import requests
 
-url = "https://truckorship.herokuapp.com/"
+url = "https://shiportruck.herokuapp.com/"
 
 with open("<IMG_PATH_HERE>", "rb") as img_file:
     imgdata = base64.b64encode(img_file.read())
