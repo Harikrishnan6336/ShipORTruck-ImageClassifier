@@ -2,10 +2,9 @@ import React, { useState } from "react";
 import "./App.css";
 import { Form, Button } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
-
 import axios from "axios";
 
-const api_link = "https://shiportruck.herokuapp.com/";
+const api_link = "https://truckorship.herokuapp.com/";
 
 function App() {
   const [baseImage, setBaseImage] = useState("");
@@ -44,7 +43,7 @@ function App() {
         image: imgData,
       })
       .then((res) => {
-        console.log("resss  " + res.data.result);
+        console.log("result ==   " + res.data.result);
         setResult(res.data.result);
       })
       .catch((error) => {
