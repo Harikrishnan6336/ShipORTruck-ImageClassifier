@@ -6,7 +6,6 @@ import base64
 app = Flask("shipORtruck")
 CORS(app)
 
-# Base route
 @app.route('/', methods=['POST'])
 def index():
     key_dict = request.get_json()
